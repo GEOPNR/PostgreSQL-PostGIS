@@ -40,10 +40,11 @@ INSERT INTO
     WHERE
        ma_table_p.insee = '60589');
 
-exemple 2 :Importer/Exporter des données SICEN
-par Renaud LAIRE, PNR Livradois-Forez. 3 Scripts pour importer ou exporter des données SICEN entre deux bases SICEN différentes. On s’en sert pour échanger des données avec le CEN Auvergne. L’import se déroule en 2 etape (preparation_import.sql puis import.sql). Il faut au préalable créer le shema “export”. Depuis ma collegue à developpé une interface pour faire la même chose à la souris … c est plus fun mais ca fait moins Matrix ...
+-- exemple 2 :Importer/Exporter des données SICEN
+-- par Renaud LAIRE, PNR Livradois-Forez.
+-- 3 Scripts pour importer ou exporter des données SICEN entre deux bases SICEN différentes. On s’en sert pour échanger des données avec le CEN Auvergne. L’import se déroule en 2 etape (preparation_import.sql puis import.sql). Il faut au préalable créer le shema “export”. Depuis ma collegue à developpé une interface pour faire la même chose à la souris … c est plus fun mais ca fait moins Matrix ...
 
-Script 1 : Export.sql
+-- Script 1 : Export.sql
 
 CREATE OR REPLACE FUNCTION export.export(
     nom_export text,
