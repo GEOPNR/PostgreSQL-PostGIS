@@ -102,7 +102,7 @@ RETURN NULL;
         END;}
 
 
-Script 2 : preparation_import.sql
+-- Script 2 : preparation_import.sql
 
 
 CREATE OR REPLACE FUNCTION export.preparation_et_import()
