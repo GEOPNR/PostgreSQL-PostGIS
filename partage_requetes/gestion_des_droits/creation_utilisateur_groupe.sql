@@ -1,4 +1,5 @@
---requete permettant de créer d'abord un groupe, puis un utilisateur avec mot de passe et enfin d'attribuer cet utilisateur à un ou plusieurs groupes
+--requete permettant de créer d'abord un groupe, puis un utilisateur avec mot de passe 
+--et enfin d'attribuer cet utilisateur à un ou plusieurs groupes
 
 --création d'un groupe
 create role NomduGroupe;
