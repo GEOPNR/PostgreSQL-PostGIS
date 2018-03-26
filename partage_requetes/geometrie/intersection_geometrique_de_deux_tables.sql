@@ -1,7 +1,7 @@
 
 --utilisation de st_intersection
---on créer la table résultat, on sélectionne d'abord les colonnes à préserver dans la table résultante,
---on lance l'intersection entre les colonnes géométries (les géom doivent de même EPSG)
+--on créer la table résultat, on sélectionne les colonnes à préserver dans la table résultante,
+--on lance l'intersection entre les colonnes géométries (les géom doivent avoir le même EPSG)
 
 create table monSchema.MaTableRésultat as
 select matable1.macolonne, matable2.macolonne, st_intersection(matable1.macolonne_geometrie, matable2.macolonne_geometrie) as MaNouvelleColonneGeometrie
